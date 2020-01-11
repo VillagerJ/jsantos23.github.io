@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Raleway:400,700&display=swap');
+/*
+1. background color of the body should be tan
+2. Color of the text should be green
+3. All heading (h1,h2,h3 ...) should have a font-family of cursive
+4. All other text (not headings) should have a font-family of serif
+*/
+
+body {
+  background-color: tan;
+  color: green;
+  font-family: 'lato',san-sans-serif;
+}
+
+h1, h2, h3{
+  font-family: 'Raleway', sans-sans-serif;
+  color: darkgreen;
+}
+.most-important {
+  color: white;
+  font-style: italic;
+}
+.least-important {
+  color: pink;
+  font-style: italic;
+}
+
+  #secret-sauce {
+    color: red;
+    font-weight: bold;
+  }
